@@ -1,0 +1,8 @@
+#list-item{
+  .item{
+    &:hover{
+      cursor: pointer;
+      background: darken($color: #fff, $amount: 5%);
+    }
+  }
+}
